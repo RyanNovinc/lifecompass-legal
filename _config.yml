@@ -1,0 +1,24 @@
+# GitHub Pages configuration for LifeCompass Legal Documents
+title: LifeCompass Legal Documents
+description: Privacy Policy, Terms of Service, and Community Guidelines for LifeCompass
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Theme
+theme: minima
+
+# Exclude files from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Site settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# SEO
+plugins:
+  - jekyll-seo-tag
